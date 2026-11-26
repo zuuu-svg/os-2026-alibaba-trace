@@ -118,7 +118,9 @@ Across the whole trace, the gap "memory utilization − CPU utilization" has a m
 | `week1_records_per_machine.png` | Distribution of record counts per machine | Done |
 
 More figures for the CPU, memory, and imbalance analyses will be added as the project progresses.
+| `week2_peak_resource_dist.png` | Distribution of per-machine mean CPU and memory utilization during peak hours (0–4 h) | Done |
 
+**Preliminary Week 2 observations (`explore_week2.ipynb`):** During the 0–4 h peak window across all 1,310 machines, per-machine mean CPU utilization averages 34.8% (range 0.7%–55.3%) and exhibits a bimodal distribution, with a secondary cluster around 22–27% (~188 machines) and the main cluster between 28–50% (~1,094 machines). Per-machine mean memory utilization is noticeably higher at 54.4% (range 4.4%–90.2%) and likewise splits into two clusters (around 30–40% and 45–75%). Overall, memory appears to be the more heavily occupied resource across the cluster during peak hours, and the bimodal split raises the question of whether distinct hardware tiers or workload types exist across machines.
 ---
 
 ## 7. Research Questions (draft)
